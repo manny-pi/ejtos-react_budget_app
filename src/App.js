@@ -20,6 +20,12 @@ const App = () => {
                     <div className='col-sm'>
                         <Budget />
                     </div>
+                    <div className='col-sm'>
+                        <Remaining />
+                    </div>
+                    <div className='col-sm'>
+                        <ExpenseTotal />
+                    </div>
                 </div>
             </div>
         </AppProvider>
